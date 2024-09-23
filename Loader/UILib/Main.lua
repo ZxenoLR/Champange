@@ -1724,7 +1724,7 @@ function sections:button(props)
 	return button
 end
 --
-function sections:slider(props)
+function sections:Slider(props)
 	-- // properties
 	local name = props.name or props.Name or props.page or props.Page or props.pagename or props.Pagename or props.PageName or props.pageName or "new ui"
 	local def = props.def or props.Def or props.default or props.Default or 0
