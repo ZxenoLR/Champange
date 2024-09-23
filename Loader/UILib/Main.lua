@@ -822,7 +822,7 @@ function library:settextsize(size)
 	end
 end
 --
-function library:page(props)
+function library:Page(props)
 	-- // properties
 	local name = props.name or props.Name or props.page or props.Page or props.pagename or props.Pagename or props.PageName or props.pageName or "new ui"
 	-- // variables
@@ -1061,7 +1061,7 @@ function pages:openpage()
 	end
 end
 --
-function pages:section(props)
+function pages:Section(props)
 	-- // properties
 	local name = props.name or props.Name or props.page or props.Page or props.pagename or props.Pagename or props.PageName or props.pageName or "new ui"
 	local side = props.side or props.Side or props.sectionside or props.Sectionside or props.SectionSide or props.sectionSide or "left"
