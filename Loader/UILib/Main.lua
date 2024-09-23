@@ -3366,7 +3366,7 @@ function keybinds:set(key)
 	end
 end
 --
-function sections:colorpicker(props)
+function sections:ColorPicker(props)
 	-- // properties
 	local name = props.name or props.Name or "new colorpicker"
 	local cpname = props.cpname or props.Cpname or props.CPname or props.CPName or props.cPname or props.cpName or props.colorpickername or nil
