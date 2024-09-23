@@ -724,11 +724,11 @@ function library:loader(props)
 	return loader
 end
 --
-function loaders:toggle()
+function loaders:Toggle()
 	self.outline.Visible = true
 end
 --
-function watermarks:toggle(bool)
+function watermarks:Toggle(bool)
 	local watermark = self
 	--
 	watermark.outline.Visible = bool
@@ -792,7 +792,7 @@ function library:setkey(key)
 	end
 end
 --
-function library:settoggle(side,bool)
+function library:SetToggle(side,bool)
 	if side == "x" then
 		self.x = bool
 	else
@@ -1482,7 +1482,7 @@ function multisections:section(props)
 	return mssection
 end
 --
-function sections:toggle(props)
+function sections:Toggle(props)
 	-- // properties
 	local name = props.name or props.Name or props.page or props.Page or props.pagename or props.Pagename or props.PageName or props.pageName or "new ui"
 	local def = props.def or props.Def or props.default or props.Default or props.toggle or props.Toggle or props.toggled or props.Toggled or false
@@ -2006,7 +2006,7 @@ function library:closewindows(ignore)
 	end
 end
 --
-function sections:dropdown(props)
+function sections:Dropdown(props)
 	-- // properties
 	local name = props.name or props.Name or props.page or props.Page or props.pagename or props.Pagename or props.PageName or props.pageName or "new ui"
 	local def = props.def or props.Def or props.default or props.Default or ""
