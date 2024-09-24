@@ -1627,7 +1627,7 @@ function toggles:set(bool)
 	end
 end
 --
-function sections:button(props)
+function sections:Button(props)
 	-- // properties
 	local name = props.name or props.Name or "new button"
 	local callback = props.callback or props.callBack or props.CallBack or props.Callback or function()end
